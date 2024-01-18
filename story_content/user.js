@@ -28,7 +28,7 @@ messages.push(system_message);
 messages.push(user_prompt01);
 
 async function openai_req() {
-	fetch('https://19a2-103-144-175-207.ngrok-free.app/letschat', {
+	fetch('https://d17c-125-162-164-222.ngrok-free.app/letschat', {
 		method:'POST',
 		headers: { 'Content-Type' : 'application/json' },
 		body: JSON.stringify({ messages })
@@ -75,7 +75,7 @@ messages.push(gpt_response01);
 messages.push(user_prompt02);
 
 async function openai_req() {
-	fetch('https://19a2-103-144-175-207.ngrok-free.app/letschat', {
+	fetch('https://d17c-125-162-164-222.ngrok-free.app/letschat', {
 		method:'POST',
 		headers: { 'Content-Type' : 'application/json' },
 		body: JSON.stringify({ messages })
